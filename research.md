@@ -42,7 +42,7 @@ There is a belief in the material science community that electron microscopists 
 <figure>
 <center><img src="./../images/strain_maps.png">
 <figcaption>
-These four maps describe the strain and rotation around a crack. Each pixel contains information that was extract from another image (a diffraction pattern)</figcaption>
+These four maps show the strain and rotation around a crack. Each pixel contains information that was extracted from another image (a diffraction pattern)</figcaption>
 </center>
 </figure>
 
