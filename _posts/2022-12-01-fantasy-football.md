@@ -24,7 +24,7 @@ The simplest calculation to perform is to figure out how likely it was I would h
 
 $$\prod_{i} \frac{n_{i}}{9}$$
 
-where $$ n_{i} $$ is my ranking in a given week $$r = ()$$, which comes to . You can extend this to solve the other win number cases, for example the probability of
+where $$ n_{i} $$ is my ranking in a given week $$r = (0,2,7,4,8,5,1,3,6,4,4,4)$$, which comes to a big fat duck egg (because I can never win in Week 1). You can extend this to solve the other win number cases, for example the probability of
 getting exactly eleven wins from twelve games is:
 
 $$\sum_{j} (1-\frac{n_{j}}{9}) \prod_{n_{i \neq j}}\frac{n_{i}}{9}$$
