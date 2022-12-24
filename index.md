@@ -3,18 +3,21 @@ layout: page
 title: "Home"
 ---
 
+<!-- this is at the bottom so that the scoping on the track works -->
+<script defer src="scripts/home.js"></script>
 <link href="styles/style.css" rel="stylesheet" />
 
 This is the website for the Cambridge based scientist, take a look around!
 
-<div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+<div id="image-track" data-mouse-down-at="0" data-prev-percentage="0" data-percentage="0">
 <img class="image" id="left" src="images/download_1.jpg" draggable=False>
-<img class="image" id="right" src="images/download_2.jpg" draggable=False/>
+<img class="image" id="mid1" src="images/download_2.jpg" draggable=False>
+<img class="image" id="mid2" src="images/download_3.jpg" draggable=False>
+<img class="image" id="right" src="images/download_4.jpg" draggable=False>
 </div>
 
-<p id="demo">A XParagraph.</p>
 
-<button type="button" onclick="myFunction()">Try it</button>
-
-<!-- this is at the bottom so that the scoping on the track works -->
-<script src="scripts/home.js" type="text/javascript"></script>
+<div id="bottom-bar">
+<button id="tech-button" type="button" onclick="myFunction()">Tech</button>
+<p id="demo"></p>
+</div>
