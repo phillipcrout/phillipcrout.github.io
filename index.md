@@ -15,8 +15,9 @@ This is the website for the Cambridge based scientist, take a look around!
 <img class="image" id="right" src="images/download_4.jpg" draggable=False>
 </div>
 
-
+<!--
 <div id="bottom-bar">
-<button id="tech-button" type="button" onclick="myFunction()">Tech</button>
-<p id="demo"></p>
+<button id="tech-button" type="button" onclick="displayTech()">Tech</button>
+<p id="tech-output"></p>
 </div>
+-->
