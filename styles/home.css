@@ -1,0 +1,20 @@
+#image-track > .image {
+  width: 50vmin;
+  height: 50vmin;
+  object-fit: cover;
+  object-position: center;
+  
+}
+
+#image-track {
+  display: block;
+  gap: 4vmin;
+  position: absolute; left: 0%; top: 40%;
+  user-select: none; 
+}
+
+/*
+#bottom-bar {
+  position: relative; left: 100% bottom 5%;
+}
+*/
