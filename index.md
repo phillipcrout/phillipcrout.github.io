@@ -3,7 +3,7 @@ layout: page
 title: "Home"
 ---
 <script defer src="scripts/home.js"></script>
-<link href="styles/style.css" rel="stylesheet" />
+<link href="styles/home.css" rel="stylesheet" />
 
 
 This is the website for the Cambridge based scientist, take a look around!
