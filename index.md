@@ -2,10 +2,9 @@
 layout: page
 title: "Home"
 ---
-
-<!-- this is at the bottom so that the scoping on the track works -->
 <script defer src="scripts/home.js"></script>
 <link href="styles/style.css" rel="stylesheet" />
+
 
 This is the website for the Cambridge based scientist, take a look around!
 

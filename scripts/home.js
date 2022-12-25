@@ -26,7 +26,8 @@ window.onmousemove = e => {
 
     // change and bounds check
     let currentChange = mouseChange + parseFloat(track.dataset.prevPercentage);
-    currentChange = Math.min(Math.max(currentChange,-50),0);
+    currentChange = Math.min(Math.max(currentChange,-80),300);
+    //console.log(currentChange)
 
     // store this incase we unclick
     track.dataset.percentage = currentChange;
