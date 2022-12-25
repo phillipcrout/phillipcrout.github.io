@@ -1,11 +1,10 @@
 const track = document.getElementById("image-track");
 
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Vanilla Javascript";
+function displayTech() {
+    document.getElementById("tech-output").innerHTML = "Vanilla Javascript";
     const element = document.getElementById("tech-button");
     element.remove();
 }
-
 
 window.onmousedown = e => {
     track.dataset.mouseDownAt = e.clientX;
