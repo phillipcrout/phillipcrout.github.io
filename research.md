@@ -4,7 +4,7 @@ permalink: "/research/"
 layout: page
 ---
 
-This page attempts to put electron microscopy into context for data professionals. <!--You can find links to posts with a more involved discussion of approaches used at the bottom of this page.--> If you are an academic looking for a list of Phillip's published work, your best bet is his [Google Scholar](https://scholar.google.com/citations?user=ptaMzOkAAAAJ&hl=en) page which he keeps up to date.
+This page attempts to put electron microscopy into context for data and software professionals. <!--You can find links to posts with a more involved discussion of approaches used at the bottom of this page.--> If you are an academic looking for a list of Phillip's published work, your best bet is his [Google Scholar](https://scholar.google.com/citations?user=ptaMzOkAAAAJ&hl=en) page which he keeps up to date.
 
 ---
 
