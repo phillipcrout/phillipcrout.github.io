@@ -1,5 +1,6 @@
 ---
-title: "Default Blog Posts (why are you here?)"
+title: "Writing"
+permalink: "/writing"
 layout: default
 ---
 
