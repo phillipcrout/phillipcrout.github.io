@@ -6,4 +6,4 @@ permalink: "/"
 
 This is the website for the Cambridge based scientist, take a look around!
 
-![](images/coffee-espresso-stock.jpg) <!-- image is of coffee, but is for decorations only so avoiding having alt text>
+![](images/coffee-espresso-stock.jpg) <!-- image is of coffee, but is for decorations only so avoiding having alt text-->
