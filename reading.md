@@ -4,7 +4,7 @@ permalink: "/reading/"
 layout: page
 ---
 
-Things that I have read (or occasionally watched) and enjoyed, loosely grouped by topic and sorted by complexity.
+Things that I have read (or occasionally watched) and enjoyed, grouped by topic and sorted by complexity.
 
 ---
 
