@@ -28,7 +28,7 @@ which follows from an elementary understanding of the rules of addition and summ
 
 <figure>
 <center><img src="./../images/barplot_of_pb_pdf.png" style="width: 21vw; min-width: 200px;">
-<figcaption>The discrete probability distribution generate from selecting a random opponent each week and comparing their score to mine. While going 5-7 and 6-6 is more
+<figcaption>The discrete probability distribution generated from selecting a random opponent each week and comparing their score to mine. While going 5-7 and 6-6 is more
 likely than 4-8, results of 4-8 and worse still make up a significant fraction of the distribution (about 25%).</figcaption>
 </center>
 </figure>
