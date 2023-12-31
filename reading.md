@@ -16,7 +16,7 @@ This makes the list less for its technical content and more because it opened my
 
 [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/sec-MCAR.html)
 
-Once you've worked in biostatistics for a while you start to get very suspicious of bookdown websites. They look incredible, but the barrier to entry is low enough that the content quality doesn't live up to the typsetting. This book is a huge exception to the trend and it's existence in the public domain is greatly appreciated.
+Once you've worked in biostatistics for a while you start to get very suspicious of Bookdown websites. They look incredible, but the barrier to entry is low enough that often the content's quality doesn't live up to its typesetting. This book is a huge exception to the trend and it's existence in the public domain is greatly appreciated.
 
 ---
 
@@ -24,7 +24,7 @@ Once you've worked in biostatistics for a while you start to get very suspicious
 
 [The Grug Brained Developer](https://grugbrain.dev/)
 
-Many people (wisely) have suggested that one stays away from comedy in their proffessional life. I did find the style of this endearing but even if I hadn't the quality of advise was also excellent. In the end, it's a truth universally acknowledged that _"Complexity very very bad"_. The post also points to [A Philosophy of Software Design](https://www.goodreads.com/en/book/show/39996759-a-philosophy-of-software-design) at the end which I'm currently reading and enjoying.
+Many people (wisely) have suggested that one stays away from comedy in their professional life. I did find the style of this endearing but even if I hadn't the quality of advise was also excellent. In the end, it's a truth universally acknowledged that _"Complexity very very bad"_. The post also points to [A Philosophy of Software Design](https://www.goodreads.com/en/book/show/39996759-a-philosophy-of-software-design) at the end which I'm currently reading and enjoying.
 
 ---
 
@@ -40,4 +40,4 @@ Derek Yu knows how to get stuff done. I want to get stuff done. Sometimes the re
 
 [Before We Go Live](https://www.amazon.co.uk/Before-We-Live-Navigating-Entertainment/dp/1739285905), [How I think about strategy games](https://www.youtube.com/watch?v=76ugXvigqLE&list=PLesIE_v8rF219O7UaVnFZY8l4AxzlbbWU&index=85) & other works of jorbs
 
-jorbs is a video game streamer who also really likes Baysian Statistics. I discovered that a far diverser range of people play Slay the Spire (the game jorbs is most commonly associated with) at a work dinner one year and so now I'm a bit more willing to point myself out as a fan. His book is also very good, although it comes with a range of content warnings and is pretty tough to read in places.
+jorbs is a video game streamer who also really likes Bayesian Statistics. I discovered that a far wider range of people play Slay the Spire (the game jorbs is most commonly associated with) at a work dinner one year and so now I'm a bit more willing to point myself out as a fan. His book is also very good, although it comes with a range of content warnings and is pretty tough to read in places.
