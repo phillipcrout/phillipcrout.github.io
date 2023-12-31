@@ -6,4 +6,4 @@ permalink: "/"
 
 This is the website for the Cambridge based scientist, take a look around!
 
-![Coffee](https://d.newsweek.com/en/full/1001693/coffee-espresso-stock.jpg)
+![](images/coffee-espresso-stock.jpg){:draggable="false"} <!-- image is of coffee, but is for decorations only so avoiding having alt text-->
