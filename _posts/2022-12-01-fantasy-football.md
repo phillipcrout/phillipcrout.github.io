@@ -4,12 +4,15 @@ layout: post
 mathjax: true
 ---
 
-A number of years ago, I joined an (American) Fantasy Football League. It's in a format that means you roll players on year to year, and after a couple of fallow seasons I felt, coming into 2022 like I had rebuilt the side. I've scored fairly well, but I'm currently sitting 4-8 (4 wins to 8 defeats) and looking at missing the playoffs again. I'm currently sitting 7th (with 1701 points so far this year) while my playoff spot is occupied by a team with a 6-6 record and only 1501 points on the season. This state of affairs is made possible by the fact that rankings are assigned as week to week wins and losses and not total points. So the question is how likely is it that my point total would get me into the playoffs? <br>
+_Update: I ended up clawing myself to 6-8 and making the playoffs._
+
+A number of years ago, I joined an (American) Fantasy Football League. It's in a format that means you roll players on year to year, and after a couple of fallow seasons I felt, coming into 2022 like I had rebuilt the side. I've scored fairly well, but I'm currently sitting 4-8 (4 wins to 8 defeats) and looking at missing the playoffs again. I'm currently in 7th place with 1701 points so far this year while my playoff spot is occupied by a team with a 6-6 record and only 1501 points on the season. This state of affairs is made possible by the fact that rankings are assigned as week to week wins and losses and not total points. So the question is how likely is it that my point total would get me into the playoffs?  
 
 <figure>
 <center><img src="./../images/line_plot_of_results.png" style="width: 21vw; min-width: 200px;">
 </center>
 </figure>
+
 
 To illustrate the problem at bit more clearly, I've plotted the 10 league participants points totals against their number of wins. You can clearly see that I (the red) have come away with fewer wins than you might expect given my points total (ie. the red dot is below the black line corresponding an 'average' number of wins per points).
 
