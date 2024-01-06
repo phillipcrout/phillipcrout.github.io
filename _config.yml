@@ -12,13 +12,15 @@ show_excerpts: true # show article excerpts on the home page
 show_frame: true # adds a gray frame to the site
 show_sidebar: false # show a sidebar instead of the usual header
 minimal: true # use a dark header
+markdown: kramdown
+mathjax: true
 
 # Menu
 
 navigation: # accepts {file, title, url, icon, sidebaricon}
   - { file: "index.md" }
   - { file: "research.md" }
-  #- { file: "writing.md" }
+  - { file: "writing.md" }
   - { file: "reading.md" }
 
 external: # shows a footer with social links - for available icons see fontawesome.com/icons

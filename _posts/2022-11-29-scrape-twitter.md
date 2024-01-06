@@ -5,7 +5,8 @@ layout: post
 
 _Update: Although 'Twitter' did not collapse, it is no longer offering a free API._
 
-A couple of weekends back, I got nervous that Twitter might collapse. This isn't a huge problem in the general sense, Twitter is one of many places I like to go on the internet. However, for some time I've used the 'like tweet' button as a kind of notebook for useful information, cool websites, good books and similar, and I was rather keen to have a back up of these interesting things, so I built one. <br>
+A couple of weekends back, I got nervous that Twitter might collapse. This isn't a huge problem in the general sense, Twitter is one of many places I like to go on the internet. However, for some time I've used the 'like tweet' button as a kind of notebook for useful information, cool websites, good books and similar, and I was rather keen to have a back up of these interesting things, so I built one.
+
 
 I started by downloading my data using the in-built functionality, which provides all your liked tweets, but crucially does not include the images (instead providing a link to the original tweet, which clearly isn't twitter collapse proof). This renders tweets such as "I enjoyed this" with an image of a novel completely useless.
 
