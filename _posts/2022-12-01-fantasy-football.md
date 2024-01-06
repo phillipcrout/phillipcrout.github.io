@@ -4,7 +4,7 @@ layout: post
 mathjax: true
 ---
 
-A number of years ago, I joined an (American) Fantasy Football League. It's in a format that means you roll players on year to year, and after a couple of fallow seasons I felt, coming into 2022 like I had rebuilt the side. I've scored fairly well, but I'm currently sitting 4-8 (4 wins to 8 defeats) and looking at missing the playoffs again. I'm currently sitting 7th (with 1701 points so far this year) while my playoff spot is occupied by a team with a 6-6 record and only 1501 points on the season. This state of affairs is made possible by the fact that rankings are assigned as week to week wins and losses and not total points. So the question is how likely is it that my point total would get me into the playoffs?
+A number of years ago, I joined an (American) Fantasy Football League. It's in a format that means you roll players on year to year, and after a couple of fallow seasons I felt, coming into 2022 like I had rebuilt the side. I've scored fairly well, but I'm currently sitting 4-8 (4 wins to 8 defeats) and looking at missing the playoffs again. I'm currently sitting 7th (with 1701 points so far this year) while my playoff spot is occupied by a team with a 6-6 record and only 1501 points on the season. This state of affairs is made possible by the fact that rankings are assigned as week to week wins and losses and not total points. So the question is how likely is it that my point total would get me into the playoffs? <br>
 
 <figure>
 <center><img src="./../images/line_plot_of_results.png" style="width: 21vw; min-width: 200px;">
@@ -13,13 +13,13 @@ A number of years ago, I joined an (American) Fantasy Football League. It's in a
 
 To illustrate the problem at bit more clearly, I've plotted the 10 league participants points totals against their number of wins. You can clearly see that I (the red) have come away with fewer wins than you might expect given my points total (ie. the red dot is below the black line corresponding an 'average' number of wins per points).
 
-Approach one is a crude analytical solution. Each week of the fantasy football season 10 teams each get a score. This means that you are playing one of the 9 possible other scores. If you have the best score in the league, you'll win. If you have the second best score, you win on $$\frac{8}{9}$$ of occasions and so on. This then becomes something very close to a binomial picking problem. Now, in the interest of simplicity (and to give us an interesting baseline to compare against next time) we're going to neglect some quirks of playing actual fantasy football (in the first 9 weeks you play each team exactly once for example) and assume that 6 wins would be sufficient to make the playoffs (this may not actually be the case, as changing the schedule will change who wins which games). This means that we can save the simulations for another time.
+Approach one is a crude analytical solution. Each week of the fantasy football season 10 teams each get a score. This means that you are playing one of the 9 possible other scores. If you have the best score in the league, you'll win. If you have the second best score, you win on $$ \frac{8}{9} $$ of occasions and so on. This then becomes something very close to a binomial picking problem. Now, in the interest of simplicity (and to give us an interesting baseline to compare against next time) we're going to neglect some quirks of playing actual fantasy football (in the first 9 weeks you play each team exactly once for example) and assume that 6 wins would be sufficient to make the playoffs (this may not actually be the case, as changing the schedule will change who wins which games). This means that we can save the simulations for another time.
 
 The simplest calculation to perform is to figure out how likely it was I would have won every game, which is given by:
 
-$$\prod_{i} \frac{n_{i}}{9}$$
+$$\prod_{i} \frac{n\*{i}}{9}$$
 
-where $$ n\_{i} $$ is my ranking in a given week $$r = (0,2,7,4,8,5,1,3,6,4,4,4)$$, which comes to a big fat duck egg (because I can never win in Week 1). You can extend this to solve the other win number cases, for example the probability of
+where $$ n\_{i} $$ is my ranking in a given week $$ r = (0,2,7,4,8,5,1,3,6,4,4,4) $$, which comes to a big fat duck egg (because I can never win in Week 1). You can extend this to solve the other win number cases, for example the probability of
 getting exactly eleven wins from twelve games is:
 
 $$\sum_{j} (1-\frac{n_{j}}{9}) \prod_{n_{i \neq j}}\frac{n_{i}}{9}$$
