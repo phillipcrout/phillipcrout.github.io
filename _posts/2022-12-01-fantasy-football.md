@@ -17,14 +17,14 @@ Approach one is a crude analytical solution. Each week of the fantasy football s
 
 The simplest calculation to perform is to figure out how likely it was I would have won every game, which is given by:
 
-$$\prod_{i} \frac{n\*{i}}{9}$$
+$$ \prod_{i} \frac{n_{i}}{9} $$
 
-where $$ n\_{i} $$ is my ranking in a given week $$ r = (0,2,7,4,8,5,1,3,6,4,4,4) $$, which comes to a big fat duck egg (because I can never win in Week 1). You can extend this to solve the other win number cases, for example the probability of
+where $$ n_{i} $$ is my ranking in a given week $$ r = (0,2,7,4,8,5,1,3,6,4,4,4) $$, which comes to a big fat duck egg (because I can never win in Week 1). You can extend this to solve the other win number cases, for example the probability of
 getting exactly eleven wins from twelve games is:
 
 $$\sum_{j} (1-\frac{n_{j}}{9}) \prod_{n_{i \neq j}}\frac{n_{i}}{9}$$
 
-which follows from an elementary understanding of the rules of addition and summation of independent probabilities. The term inside the product is our $$ n-1 $$ wins, the term outside are our defeats. However, exploiting the fact that these are independent draws from Bernouli distributions means we can makes this process a bit simpler. Specifically, we use the fact that the distribution of sums of Bernouli distributions is the [Poisson binomial distribution](https://en.wikipedia.org/wiki/Poisson_binomial_distribution). While this isn't particularly easy to work with, but it's prevalent enough that there is a Python package to do the calculations for us. Below I've plotted the histogram of my expected wins given my weekly ranks. By simple summation we find that under this crude model I get to 6-6 or better in 45% of seasons and 5-7 nearly three quarter of the time. Still under the model this isn't a convincing playoff push. Next time I'll investigate if this number changes much as we drop some of assumptions (broadly allowing for strength of schedule and the variable barrier for entry to the playoffs), but for now I'll stick to feeling a little hard done by.
+which follows from an elementary understanding of the rules of addition and summation of independent probabilities. The term inside the product is our $$ n-1 $$ wins, the term outside are our defeats. However, exploiting the fact that these are independent draws from Bernouli distributions means we can makes this process a bit simpler. Specifically, we use the fact that the distribution of sums of Bernouli distributions is the [Poisson binomial distribution](https://en.wikipedia.org/wiki/Poisson_binomial_distribution). While this isn't particularly easy to work with, but it's prevalent enough that there is a Python package to do the calculations for us. Below I've plotted the histogram of my expected wins given my weekly ranks. By simple summation we find that under this crude model I get to 6-6 or better in 45% of seasons and 5-7 nearly three quarter of the time. Still under the model this isn't a convincing playoff push.
 
 <figure>
 <center><img src="./../images/barplot_of_pb_pdf.png" style="width: 21vw; min-width: 200px;">
