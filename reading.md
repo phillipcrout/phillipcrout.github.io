@@ -26,6 +26,10 @@ Once you've worked in biostatistics for a while you start to get very suspicious
 
 Many people (wisely) have suggested that one stays away from comedy in their professional life. I did find the style of this endearing but even if I hadn't the quality of advise was also excellent. In the end, it's a truth universally acknowledged that _"Complexity very very bad"_. The post also points to [A Philosophy of Software Design](https://www.goodreads.com/en/book/show/39996759-a-philosophy-of-software-design) at the end which I'm currently reading and enjoying.
 
+[Grokking Algorithms: An Illustrated Guide for Programmers and Other Curious People](https://www.amazon.co.uk/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230)
+
+One of many good recommendations from the Pragmatic Engineering Newsletter ([link](https://blog.pragmaticengineer.com/)) this really helped me to understand what I did (and didn't) like about the prospect of working in engineering (rather than data).
+
 ---
 
 ### Productivity, Career & 'just for fun'
