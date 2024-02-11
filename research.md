@@ -6,6 +6,12 @@ layout: page
 
 If you're looking for a list of Phillip's published work, your best bet is his [Google Scholar](https://scholar.google.com/citations?user=ptaMzOkAAAAJ&hl=en) page which he keeps up to date.
 
+---
+
+## Using Machine Learning to Predict Mortality (2023 - Present)
+
+In December 2023 Phillip joined the MRC Biostatistics Unit as a post-doc. His work focusses on using machine learning methods to predict mortality outcomes in patients with alcoholic hepatitis. With a better understanding of a patient's baseline mortality (i.e. how likely it is that they will survive untreated) doctors will be empowered to make more informed treatment decisions.
+
 ## Electron Microscopy (2017-2022)
 
 An Electron Microscopy session (often a single afternoon) in the SED modality can an image stack in excess of 100,000 images. This are an extremely rich data source that tells us about the arrangement of atoms within a sample. This information can be used to understand deformation behavior, predict failure modes and a variety of other things. However, to do this researchers need data-intensive, open-source processing tools. To solve this problem, Phillip and colleagues wrote <a href="https://github.com/pyxem/pyxem">Pyxem</a> and electron microscopy Python package. Because most researchers do not have extensive coding backgrounds (or the mathematical chops to get involved in image processing) the Pyxem developers have tried hard to make the code accessible, with simple to read <a href="https://pyxem.readthedocs.io/en/latest/">documentation</a> and detailed docstrings.
